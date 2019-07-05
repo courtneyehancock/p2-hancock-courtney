@@ -8,6 +8,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 /* ========================== NAVIGATION */
+.logo {
+	max-width: 125px;
+	margin: 0 auto;
+}
+
 .sidebar {
   margin: 0;
   padding: 0;
@@ -37,7 +42,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
+  /*padding: 1px 16px;*/
   height: 1000px;
 }
 
@@ -391,4 +396,20 @@ Reveal
     -o-transform: scaleX(1);
     transform: scaleX(1);
   }
+}
+
+/* =============================Home Page Content*/
+.stack {
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+}
+
+.icon {
+	max-width: 50px;
+}
+
+.options {
+	display: flex;
+	justify-content: center;
 }
