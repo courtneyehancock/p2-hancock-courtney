@@ -421,3 +421,26 @@ Reveal
 .icon-text {
 	color: #003366;
 }
+
+.started {
+	background-color: #f1f1f1;
+	padding: 2%;
+	margin-top: 5%;
+}
+
+.started h1 {
+	text-align: center;
+	color: #6b2517;
+}
+
+.started-text {
+	text-align: center;
+	padding: 2% 10%;
+	color: #402b16;
+}
+/*====================MEDIA QUERIES*/
+@media (min-width: 1000px) {
+	.numbers {
+		display: flex;
+	}
+}
