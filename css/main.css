@@ -217,19 +217,19 @@ Reveal
   left: 0;
   height: 3px;
   width: 100%;
-  background-color: #202e4a;
+  background-color: #f37022;
   -webkit-animation: cd-loading 0.4s 0.3s backwards;
   -moz-animation: cd-loading 0.4s 0.3s backwards;
   animation: cd-loading 0.4s 0.3s backwards;
 }
-.reveal.cd-intro-content .action-wrapper .cd-btn {
+.reveal.cd-intro-content .action-wrapper {
   display: block;
   opacity: 1;
   max-width: 200px;
   margin: 1em auto 0;
 }
 @media only screen and (min-width: 768px) {
-  .reveal.cd-intro-content .action-wrapper .cd-btn {
+  .reveal.cd-intro-content .action-wrapper {
     display: inline-block;
     margin: 0 0 0 1em;
   }
