@@ -402,14 +402,22 @@ Reveal
 .stack {
 	display: flex;
 	flex-direction: column;
-	padding: 5%;
+	padding-top: 5%;
+	justify-content: space-evenly;
+	margin: 0 auto;
 }
 
 .icon {
 	max-width: 50px;
+	margin: 0 auto;
 }
 
 .options {
 	display: flex;
 	justify-content: center;
+	align-self: baseline;
+}
+
+.icon-text {
+	color: #003366;
 }
