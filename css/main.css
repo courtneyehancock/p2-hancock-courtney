@@ -7,6 +7,57 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+/* ========================== NAVIGATION */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #6b2517;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #e2dfdc;
+  color: #6b2517;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
 /* --------------------------------
 Primary style
 -------------------------------- */
@@ -62,18 +113,17 @@ General Style
   font-weight: 700;
   line-height: 1.4;
   margin: 1em 0;
-  color: #f37022;
+  color: #6b2517;
 }
 
 .cd-btn {
   display: inline-block;
   padding: 1.2em 1.4em;
   font-size: 1.3rem;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  background-color: #202e4a;
   border-radius: .25em;
   margin-right: 1.5em;
 }
@@ -81,7 +131,7 @@ General Style
   margin-right: 0;
 }
 .cd-btn.main-action {
-  background-color: #fb5e58;
+  background-color: #6b2517;
 }
 @media only screen and (min-width: 480px) {
   .cd-btn {
