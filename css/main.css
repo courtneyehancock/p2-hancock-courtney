@@ -22,7 +22,6 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #040404;
-  background-color: #ffffff;
 }
 
 a {
@@ -39,9 +38,9 @@ General Style
   width: 100%;
   /* vertically align its content */
   display: table;
-  background-image: url('images/blur-blurry-close-up-347139.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../images/blur.png');
+	background-size: cover;
+	background-repeat: no-repeat;
   overflow: hidden;
 }
 
@@ -63,28 +62,7 @@ General Style
   font-weight: 700;
   line-height: 1.4;
   margin: 1em 0;
-  color: #6d7a97;
-}
-.cd-intro-content .action-wrapper {
-  display: inline-block;
-}
-.cd-intro-content .action-wrapper::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-.cd-intro-content .action-wrapper > * {
-  float: left;
-}
-@media only screen and (min-width: 768px) {
-  .cd-intro-content h1 {
-    font-size: 5.2rem;
-    font-weight: 300;
-  }
-  .cd-intro-content p {
-    font-size: 1.6rem;
-    margin: 1.5em 0 1.9em;
-  }
+  color: #f37022;
 }
 
 .cd-btn {
@@ -116,6 +94,27 @@ General Style
   }
 }
 
+.cd-intro-content .action-wrapper {
+  display: inline-block;
+}
+.cd-intro-content .action-wrapper::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-intro-content .action-wrapper > * {
+  float: left;
+}
+@media only screen and (min-width: 768px) {
+  .cd-intro-content h1 {
+    font-size: 5.2rem;
+    font-weight: 300;
+  }
+  .cd-intro-content p {
+    font-size: 1.6rem;
+    margin: 1.5em 0 1.9em;
+  }
+}
 .cd-intro-content h1,
 .cd-intro-content h1 span,
 .cd-intro-content p,
@@ -222,14 +221,14 @@ Reveal
   -moz-animation: cd-loading 0.4s 0.3s backwards;
   animation: cd-loading 0.4s 0.3s backwards;
 }
-.reveal.cd-intro-content .action-wrapper {
+.reveal.cd-intro-content .action-wrapper .cd-btn {
   display: block;
   opacity: 1;
   max-width: 200px;
   margin: 1em auto 0;
 }
 @media only screen and (min-width: 768px) {
-  .reveal.cd-intro-content .action-wrapper {
+  .reveal.cd-intro-content .action-wrapper .cd-btn {
     display: inline-block;
     margin: 0 0 0 1em;
   }
