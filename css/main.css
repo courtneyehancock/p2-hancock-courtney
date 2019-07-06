@@ -389,11 +389,9 @@ Reveal
 	color: #402b16;
 }
 
-footer {
-	color: #6b2517;
-	font-weight: bold;
+.note {
 	text-align: center;
-	padding: 5%;
+	padding: 2%;
 }
 /*====================PROJECTS PAGE*/
 /* Three columns side by side */
@@ -457,7 +455,22 @@ footer {
 	width: 100%;
 }
 /*====================================STORY PAGE*/
-
+.story-bg {
+	background-image: url('../images/wood-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*====================================FOOTER*/
+footer {
+	color: #6b2517;
+	font-weight: bold;
+	text-align: center;
+	padding: 5%;
+}
+.foot-logo {
+	margin: 0 auto;
+	max-width: 250px;
+}
 /*====================================MEDIA QUERIES*/
 @media only screen and (min-width: 480px) {
   .cd-btn {
