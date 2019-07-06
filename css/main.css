@@ -426,12 +426,10 @@ Reveal
 	border-radius: 5px;
 }
 
-/* Some left and right padding inside the container */
 .container {
-  padding: 5px 16px;
+  padding: 2% 5%;
 }
 
-/* Clear floats */
 .container::after, .proj-line::after {
   content: "";
   clear: both;
@@ -457,6 +455,14 @@ Reveal
 
 .btn:hover {
   background-color: #fff;
+	color: #330000;
+}
+
+.btn a {
+	color: #fff;
+}
+
+.btn a:hover {
 	color: #330000;
 }
 
