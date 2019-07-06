@@ -388,11 +388,18 @@ Reveal
 	padding: 2% 10%;
 	color: #402b16;
 }
+
+footer {
+	color: #6b2517;
+	font-weight: bold;
+	text-align: center;
+	padding: 5%;
+}
 /*====================PROJECTS PAGE*/
 /* Three columns side by side */
-.column {
+.col {
   float: left;
-  width: 33.3%;
+  width: 40%;
   margin-bottom: 2%;
   padding: 1%;
 }
@@ -408,6 +415,7 @@ Reveal
 
 .card {
 	background-color: #f1f1f1;
+	border-radius: 5px;
 }
 
 /* Some left and right padding inside the container */
@@ -416,7 +424,7 @@ Reveal
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container::after, .proj-line::after {
   content: "";
   clear: both;
   display: table;
@@ -427,16 +435,16 @@ Reveal
 }
 
 .btn {
-  border: none;
+	margin: 5% auto;
   display: inline-block;
-  padding: 3%;
-	margin: 5%;
+  padding: 3% 0;
   color: white;
   background-color: #6b2517;
   text-align: center;
   cursor: pointer;
   width: 100%;
-	border-radius: 8px;
+	border-radius: 5px;
+	max-width: 50%;
 }
 
 .btn:hover {
@@ -448,7 +456,9 @@ Reveal
 	max-width: 400px;
 	width: 100%;
 }
-/*====================MEDIA QUERIES*/
+/*====================================STORY PAGE*/
+
+/*====================================MEDIA QUERIES*/
 @media only screen and (min-width: 480px) {
   .cd-btn {
     padding: 1.2em 1.6em;
@@ -484,6 +494,12 @@ Reveal
 	}
 }
 
+@media (min-width: 800px) {
+	.col {
+		width: 33.333%;
+	}
+}
+
 @media only screen and (min-width: 1170px) {
   .reveal.cd-intro-content p {
     padding: 1em 1.6em;
@@ -501,16 +517,14 @@ Reveal
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 @media screen and (max-width: 400px) {
   .sidebar a {
     text-align: center;
     float: none;
   }
+	.col {
+		width: 100%;
+		display: block;
+
+	}
 }
