@@ -55,6 +55,20 @@ div.content {
   height: 1000px;
 }
 
+.hide {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	transition: all 1s;
+}
+
+.show {
+	height: 50%;
+	overflow: hidden;
+	transition: all 1s;
+	color: #33000;
+}
+
 /* --------------------------------
 Primary style
 -------------------------------- */
