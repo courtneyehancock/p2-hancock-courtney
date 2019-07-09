@@ -417,8 +417,13 @@ Reveal
 	text-align: center;
 	padding: 2%;
 }
-/*====================PROJECTS PAGE*/
-/* Three columns side by side */
+/*==================================PROJECTS PAGE*/
+.hide,
+.hide1,
+.hide2 {
+  display: none;
+}
+
 .col {
   float: left;
   width: 40%;
