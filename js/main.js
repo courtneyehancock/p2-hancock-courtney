@@ -8,6 +8,5 @@ function showMessage() {
 function hideMessage() {
   hiddenMessage.classList.add('hide');
 }
-
-button.onmouseenter = showMessage;
-button.onmouseleave = hideMessage;
+button.addEventListener('mouseenter', showMessage);
+button.addEventListener('mouseleave', hideMessage);

@@ -418,12 +418,6 @@ Reveal
 	padding: 2%;
 }
 /*==================================PROJECTS PAGE*/
-.hide,
-.hide1,
-.hide2 {
-  display: none;
-}
-
 .col {
   float: left;
   width: 40%;
@@ -490,6 +484,42 @@ Reveal
 	width: 100%;
 }
 /*====================================STORY PAGE*/
+.hide {
+  display: none;
+}
+
+.btn1 {
+	margin: 0 auto;
+  display: inline-block;
+  padding: 1% 0;
+  color: #330000;
+  background-color: #fff;;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+	border-radius: 5px;
+	max-width: 50%;
+}
+
+.btn1:hover {
+  background-color: #f1f1f1;
+	color: #330000;
+	transition: .5s;
+}
+
+.btn1 a {
+	color: #330000;
+}
+
+.hide-button {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2%;
+}
+.btn1 a:hover {
+	color: #330000;
+}
+
 .story-bg {
 	background-image: url('../images/wood-bg.jpg');
 	background-size: cover;
@@ -503,12 +533,19 @@ Reveal
 	z-index: 100;
 }
 
+.story-img1 {
+	width: 100%;
+	max-width: 350px;
+	padding: 2% 2% 0 2%;
+	z-index: 100;
+}
+
 .story-text1 {
 	color: #fff;
 	width: 100%;
 	background-color: #330000;
 	padding: 5%;
-	margin: 1% auto;
+	margin: 1% auto 0;
 	z-index: -1;
 }
 
@@ -519,6 +556,14 @@ Reveal
 	padding: 5%;
 	margin: 1% auto;
 	z-index: -2;
+}
+
+.hidden-text {
+	margin: 0 auto 2%;;
+	text-align: center;
+	color: #330000;
+	background-color: #fff;
+	padding: 2%;
 }
 /*====================================FOOTER*/
 footer {
