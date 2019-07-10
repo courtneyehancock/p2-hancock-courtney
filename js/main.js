@@ -8,5 +8,16 @@ function showMessage() {
 function hideMessage() {
   hiddenMessage.classList.add('hide');
 }
+
 button.addEventListener('mouseenter', showMessage);
 button.addEventListener('mouseleave', hideMessage);
+
+//Popup Ad
+var ad = document.getElementById('ad');
+
+function adMessage() {
+  alert('Get 20% off when you refer a friend');
+}
+
+ad.addEventListener('mouseenter', adMessage);
+//API
