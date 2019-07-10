@@ -1,23 +1,25 @@
-var button = document.getElementById('show-message');
-var hiddenMessage = document.getElementById('hidden-message');
+//read more show message & hide message
+var button = document.getElementById("show-message");
+var hiddenMessage = document.getElementById("hidden-message");
 
 function showMessage() {
-  hiddenMessage.classList.remove('hide');
+  hiddenMessage.classList.remove("hide");
 }
 
 function hideMessage() {
-  hiddenMessage.classList.add('hide');
+  hiddenMessage.classList.add("hide");
 }
 
-button.addEventListener('mouseenter', showMessage);
-button.addEventListener('mouseleave', hideMessage);
+button.addEventListener("mouseenter", showMessage);
+button.addEventListener("mouseleave", hideMessage);
 
 //Popup Ad
-var ad = document.getElementById('ad');
+var ad = document.getElementById("ad");
 
 function adMessage() {
-  alert('Get 20% off when you refer a friend');
+  window.alert("Get 20% off a custom order when you refer a friend");
 }
 
-ad.addEventListener('mouseenter', adMessage);
+ad.addEventListener("mouseenter", adMessage);
+
 //API
