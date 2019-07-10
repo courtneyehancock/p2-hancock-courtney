@@ -11,6 +11,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 p {
 	font-size: .8em;
 }
+
 /* ========================== NAVIGATION */
 .logo {
 	max-width: 125px;
@@ -70,7 +71,7 @@ div.content {
 }
 
 /* --------------------------------
-Primary style
+Header animation
 -------------------------------- */
 *, *::after, *::before {
   box-sizing: border-box;
@@ -91,9 +92,6 @@ a {
   text-decoration: none;
 }
 
-/* --------------------------------
-General Style
--------------------------------- */
 .cd-intro {
   position: relative;
   height: 100vh;
@@ -179,9 +177,6 @@ General Style
   opacity: 1;
 }
 
-/* --------------------------------
-Reveal
--------------------------------- */
 .reveal.cd-intro-content h1 {
   position: relative;
   /* overwrite default style */
@@ -426,7 +421,8 @@ Reveal
 }
 
 .container h2 {
-	font-family: 1em;
+	font-size: 1.5em;
+	color: #003366;
 }
 /* Add some shadows to create a card effect */
 .card:hover {
@@ -569,7 +565,7 @@ Reveal
 form {
 	background-color: #330000;
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 2%;
@@ -579,16 +575,38 @@ input {
 	background-color: #fff;
 	padding: 1%;
 	margin: 1% 50% 1% 1%;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: .8em;
+	color: #003366;
 }
 
 textarea {
 	background-color: #fff;
 	padding: 1%;
 	margin: 1% 50% 1% 1%;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: .8em;
+	color: #003366;
 }
 
-*.contact-form {
+.contact-form {
 	padding: 1%;
+}
+
+.contact-form h1 {
+	color: #003366;
+}
+.contact-img {
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	min-width: 350px;
+}
+
+.contact-flex {
+	margin: 0 auto;
+	padding: 5%;
+	justify-content: center;
 }
 /*====================================FOOTER*/
 footer {
@@ -641,6 +659,10 @@ footer {
 @media (min-width: 800px) {
 	.col {
 		width: 33.333%;
+	}
+
+	.contact-flex {
+		display: flex;
 	}
 }
 

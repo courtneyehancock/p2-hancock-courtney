@@ -21,5 +21,3 @@ function adMessage() {
 }
 
 ad.addEventListener("mouseenter", adMessage);
-
-//API
