@@ -596,6 +596,10 @@ textarea {
 .contact-form h1 {
 	color: #003366;
 }
+
+.contact-form p {
+	color: #003366;
+}
 .contact-img {
 	max-width: 500px;
 	width: 100%;
