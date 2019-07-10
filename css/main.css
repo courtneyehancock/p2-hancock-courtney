@@ -565,6 +565,31 @@ Reveal
 	background-color: #fff;
 	padding: 2%;
 }
+/*====================================CONTACT US*/
+form {
+	background-color: #330000;
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+
+input {
+	background-color: #fff;
+	padding: 1%;
+	margin: 1% 50% 1% 1%;
+}
+
+textarea {
+	background-color: #fff;
+	padding: 1%;
+	margin: 1% 50% 1% 1%;
+}
+
+*.contact-form {
+	padding: 1%;
+}
 /*====================================FOOTER*/
 footer {
 	color: #330000;

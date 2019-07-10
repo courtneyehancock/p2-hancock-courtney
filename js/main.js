@@ -1,4 +1,4 @@
-//read more show message & hide message
+//read more show message & hide message on story page
 var button = document.getElementById("show-message");
 var hiddenMessage = document.getElementById("hidden-message");
 
@@ -13,7 +13,7 @@ function hideMessage() {
 button.addEventListener("mouseenter", showMessage);
 button.addEventListener("mouseleave", hideMessage);
 
-//Popup Ad
+//Popup Ad on homepage
 var ad = document.getElementById("ad");
 
 function adMessage() {
