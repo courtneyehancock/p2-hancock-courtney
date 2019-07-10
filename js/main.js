@@ -17,7 +17,7 @@ button.addEventListener("mouseleave", hideMessage);
 var ad = document.getElementById("ad");
 
 function adMessage() {
-  window.alert("Get 20% off a custom order when you refer a friend");
+  window.alert("Get 20% off a custom order when you refer a friend!");
 }
 
 ad.addEventListener("mouseenter", adMessage);
